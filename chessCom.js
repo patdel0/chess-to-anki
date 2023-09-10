@@ -31,7 +31,7 @@ async function grabFEN() {
   goBackOneMove();
   openFENmodal();
 
-  await wait(200);
+  await wait(300);
 
   const fenInputField = document.querySelector(SELECTORS.fenInputField);
   const fenValue = fenInputField?.value;
