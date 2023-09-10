@@ -7,9 +7,16 @@
   },
   "content_scripts": [
     {
-        "matches": ["*://www.chess.com/*"],
-        "css": ["styles.css"],
-        "js": ["chessCom.js"]
+      "matches": [
+        "*://www.chess.com/*"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "js": [
+        "chessCom.js"
+      ]
+    },
     }
   ]
 }
