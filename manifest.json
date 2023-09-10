@@ -17,6 +17,20 @@
         "chessCom.js"
       ]
     },
+    {
+      "matches": [
+        "*://lichess.org/*"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "js": [
+        "addToAnki.js"
+      ]
     }
+  ],
+  "permissions": [
+    "activeTab",
+    "http://127.0.0.1:8765/"
   ]
 }
